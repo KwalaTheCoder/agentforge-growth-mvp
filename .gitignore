@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.coverage
+
+# Local application data
+*.sqlite3
+*.sqlite3-*
+leads.sqlite3
+leads.sqlite3-wal
+leads.sqlite3-shm
+backups/
+.agentforge_cache/
+.agentforge_private/
+
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+credentials.json
+gmail_client_secret.json
+gmail_token.json
+.streamlit/secrets.toml
+
+# Local artifacts and historical patch bundles
+*.rar
+*.zip
+test_errors*.txt
+README_*.txt
+README.txt
+INSTALL.txt
+.streamlit/*.bak
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
