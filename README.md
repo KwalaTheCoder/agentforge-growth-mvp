@@ -15,6 +15,12 @@ AgentForge combines public-source research, a local SQLite CRM, transparent prio
 - Keep operational data local in SQLite
 - Run release, backup, and security checks from the command line
 
+## Demo
+
+[**Watch AgentForge in Action — GitHub Release Demo**](https://github.com/KwalaTheCoder/agentforge-growth-mvp/releases/tag/demo-v1)
+
+This is an illustrative product walkthrough, not a recording of the live application.
+
 ## Tech stack
 
 - Python 3
